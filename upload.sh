@@ -12,8 +12,8 @@ git status
 git commit -m 'auto update EasyRL'
 echo '--------commit successfully--------'
 
-git push -f https://github.com/Shuaiwen-Cui/DSP-LIB.git master
-# git push -u https://github.com/Shuaiwen-Cui/DSP-LIB.git master
+git push -f https://github.com/Shuaiwen-Cui/DSP-LIB.git main
+# git push -u https://github.com/Shuaiwen-Cui/DSP-LIB.git main
 # git remote add origin https://github.com/Shuaiwen-Cui/DSP-LIB.git
-# git push -u origin master
+# git push -u origin main
 echo '--------push to GitHub successfully--------'
