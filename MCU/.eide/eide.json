@@ -1,0 +1,478 @@
+{
+  "name": "DSP",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "CORE",
+        "files": [
+          {
+            "path": "DSP-HELLO/CORE/cmsis_armcc.h"
+          },
+          {
+            "path": "DSP-HELLO/CORE/cmsis_compiler.h"
+          },
+          {
+            "path": "DSP-HELLO/CORE/core_cm7.h"
+          },
+          {
+            "path": "DSP-HELLO/CORE/startup_stm32h743xx.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "DSPLIB",
+        "files": [
+          {
+            "path": "DSP-HELLO/DSPLIB/arm_cortexM7lfdp_math.lib"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "FATFS",
+        "files": [
+          {
+            "path": "DSP-HELLO/FATFS/exfuns/exfuns.c"
+          },
+          {
+            "path": "DSP-HELLO/FATFS/exfuns/fattester.c"
+          },
+          {
+            "path": "DSP-HELLO/FATFS/exfuns/myffunicode.c"
+          },
+          {
+            "path": "DSP-HELLO/FATFS/source/diskio.c"
+          },
+          {
+            "path": "DSP-HELLO/FATFS/source/ff.c"
+          },
+          {
+            "path": "DSP-HELLO/FATFS/source/ffsystem.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HALLIB",
+        "files": [
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dcmi.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_nand.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sram.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_delayblock.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c"
+          },
+          {
+            "path": "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HARDWARE",
+        "files": [
+          {
+            "path": "DSP-HELLO/HARDWARE/24CXX/24cxx.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/IIC/myiic.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/KEY/key.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/LCD/lcd.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/LCD/ltdc.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/LED/led.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/MPU/mpu.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/NAND/ftl.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/NAND/nand.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/NAND/nandtester.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/PCF8574/pcf8574.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/QSPI/qspi.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/SDMMC/sdmmc_sdcard.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/SDRAM/sdram.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/TIMER/timer.c"
+          },
+          {
+            "path": "DSP-HELLO/HARDWARE/W25QXX/w25qxx.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "MALLOC",
+        "files": [
+          {
+            "path": "DSP-HELLO/MALLOC/malloc.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "README",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "SYSTEM",
+        "files": [
+          {
+            "path": "DSP-HELLO/SYSTEM/delay/delay.c"
+          },
+          {
+            "path": "DSP-HELLO/SYSTEM/sys/sys.c"
+          },
+          {
+            "path": "DSP-HELLO/SYSTEM/usart/usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "TEXT",
+        "files": [
+          {
+            "path": "DSP-HELLO/TEXT/fontupd.c"
+          },
+          {
+            "path": "DSP-HELLO/TEXT/text.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "DSP-HELLO/USER/main.c"
+          },
+          {
+            "path": "DSP-HELLO/USER/stm32h7xx_hal_msp.c"
+          },
+          {
+            "path": "DSP-HELLO/USER/stm32h7xx_it.c"
+          },
+          {
+            "path": "DSP-HELLO/USER/system_stm32h7xx.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USMART",
+        "files": [
+          {
+            "path": "DSP-HELLO/USMART/usmart_config.c"
+          },
+          {
+            "path": "DSP-HELLO/USMART/usmart_str.c"
+          },
+          {
+            "path": "DSP-HELLO/USMART/usmart.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": ".pack/Keil/STM32H7xx_DFP.2.3.1",
+  "miscInfo": {
+    "uid": "390e46a061fdae669893b65497a89751"
+  },
+  "targets": {
+    "DSP": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M7",
+        "floatingPointHardware": "double",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x20000"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x24000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x200000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/dsp.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "DSP-HELLO/CORE",
+          "DSP-HELLO/USER",
+          "DSP-HELLO/SYSTEM/delay",
+          "DSP-HELLO/SYSTEM/sys",
+          "DSP-HELLO/SYSTEM/usart",
+          "DSP-HELLO/HALLIB/STM32H7xx_HAL_Driver/Inc",
+          "DSP-HELLO/USMART",
+          "DSP-HELLO/MALLOC",
+          "DSP-HELLO/HARDWARE/LED",
+          "DSP-HELLO/HARDWARE/KEY",
+          "DSP-HELLO/HARDWARE/TIMER",
+          "DSP-HELLO/HARDWARE/MPU",
+          "DSP-HELLO/HARDWARE/LCD",
+          "DSP-HELLO/HARDWARE/SDRAM",
+          "DSP-HELLO/HARDWARE/24CXX",
+          "DSP-HELLO/HARDWARE/IIC",
+          "DSP-HELLO/HARDWARE/PCF8574",
+          "DSP-HELLO/HARDWARE/QSPI",
+          "DSP-HELLO/HARDWARE/W25QXX",
+          "DSP-HELLO/HARDWARE/SPI",
+          "DSP-HELLO/HARDWARE/SDMMC",
+          "DSP-HELLO/HARDWARE/NAND",
+          "DSP-HELLO/FATFS/exfuns",
+          "DSP-HELLO/FATFS/source",
+          "DSP-HELLO/TEXT",
+          "DSP-HELLO/DSPLIB/Include",
+          ".cmsis/include",
+          "DSP-HELLO/USER/RTE/_DSP",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32H743xx",
+          "ARM_MATH_CM7",
+          "__CC_ARM",
+          "ARM_MATH_MATRIX_CHECK",
+          "ARM_MATH_ROUNDING"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
